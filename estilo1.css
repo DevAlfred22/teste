@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body{
+
+    background-color: white;
+    
+}
+
+header{
+
+    background-image: linear-gradient(to top,  rgb(87, 85, 85), white);
+    padding: 10px;
+    margin: -10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+   
+}
+
+header>h1{
+
+    text-align: center;
+
+}
+
+header>p{
+
+    text-align: center;
+    font-size: 1.4em;
+}
+
+header>nav>a{
+    
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    font-size: 1.2em;
+    border-radius: 10%;
+    
+    
+}
+
+a:hover{
+    background-color: rgb(140, 79, 197);
+   
+}
+main{
+
+    padding:9px ;
+    
+    background-color:rgb(171, 171, 182);
+    margin: left;
+    width: 900px;
+    height: 300px;
+    border: 1px solid rgba(51, 50, 50, 0.267);
+    border-radius: 5%;
+
+}
+main>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+
+article{
+
+    background-color: gold;
+
+}
+
+section{
+
+    background-color:green;
+
+}
+
+*{
+    
+}
